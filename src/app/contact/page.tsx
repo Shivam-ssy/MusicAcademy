@@ -16,7 +16,7 @@ function Contact() {
       <h1 className='mt-32 text-center font-bold text-3xl sm:text-4xl'>Contact Us</h1>
       <p className="text-center text-sm px-5 mt-4">We&apos;re here to help with any questions about our courses, programs, or events. Reach out and let us know how we can assist you in your musical journey</p>
         </div>
-        <form onSubmit={handleSubmit} className='flex w-full max-w-xl flex-col items-center px-5 mt-8'>
+        <form onSubmit={handleSubmit} className='flex z-10 w-full max-w-xl flex-col items-center px-5 mt-8'>
             <input
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}

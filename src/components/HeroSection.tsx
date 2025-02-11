@@ -22,7 +22,7 @@ function HeroSection() {
       <div className="mt-5">
         <Button
           borderRadius="1.75rem"
-          className="bg-white dark:bg-black/50 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+          className="bg-black/20 dark:bg-black/50 text-black dark:text-white border-neutral-200 dark:border-slate-800"
         >
           Explore Courses
         </Button>
